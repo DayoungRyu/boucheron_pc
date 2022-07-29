@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+:root{
+  --font_h1:120px; /*대타이틀*/
+  --font_h2:40px; /*대타이틀*/
+  --font_h3:20px; /*대타이틀*/
+}
+
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+}
+
+.inner{
+  width: 1300px;
+  margin:0 auto;
+  }
+
+footer .footer_wrap .footer_logo_wrap ul li a i{
+  background: url(../img/icon.png) no-repeat;
+  background-size: 145px;
+}
